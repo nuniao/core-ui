@@ -29,7 +29,7 @@ UIs are best described in **`.uix` single-file components** — Vue 3 SFC style 
 | **Distribution size** | 100+ MB | needs .NET runtime | 40+ MB Qt DLLs | **3.0 MB single DLL** |
 | **Startup time** | 1–3 s | 0.5–1 s | 0.5–1 s | **< 200 ms** |
 | **Memory footprint** | 150+ MB | 80+ MB | 60+ MB | **< 30 MB** |
-| **Language bindings** | JS only | .NET only | C++ only | **C ABI, any language** |
+| **Language bindings** | JS only | .NET only | C++ only | **C API, any language** |
 | **Design language** | DIY | Fluent (limited) | Platform-native | **Fluent 2, native-grade** |
 | **Declarative / reactive UI** | JSX + virtual DOM | XAML + Binding | QML | **`.uix` Vue 3 SFC (QuickJS-NG)** |
 | **Learning curve** | full-stack JS | XAML + C# | C++ + meta object | **Vue templates + C, instant** |
